@@ -1,0 +1,78 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: #adadb2;
+    margin: auto;
+    width: 75%;
+    padding: 15px;
+}
+
+h1,
+h2,
+h3 {
+    font-size: 15pt;
+}
+
+section {
+    padding: 25px;
+    margin: 25px;
+    border: #07679f solid 5px;
+}
+
+footer {
+    background-color: #131112;
+    color: #d4d6da;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: #066196 solid 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.welcomeToThePage {
+    background-color: #1570a5;
+    color: white;
+}
+
+.aboutUs {
+    background-color: #14a1cc;
+    color: white;
+}
+
+.contactUs {
+    background-color: #240d46;
+    color: #caced6;
+}
+
+.contactUs>p:first-of-type {
+    color: #d4d7dd;
+    width: 75%;
+}
+
+img {
+    border: #86ba46 solid 5px;
+    float: right;
+    width: 25%;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #0589b5;
+    /* Green */
+    border: none;
+    color: #dadce1;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+.button:hover,
+a:hover {
+    cursor: pointer;
+}
